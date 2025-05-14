@@ -41,7 +41,7 @@ Elle effectue les étapes suivantes :
 1. **Lint** : `npm run lint` – vérifie le style de code avec ESLint  
 2. **Tests** : `npm run test:unit` – exécute les tests avec Vitest  
 3. **Build Docker** : construit une image de production  
-4. **Push Docker Hub** : pousse l’image vers `docker.io/<utilisateur>/vue-app:latest`
+4. **Push Docker Hub** : pousse l’image vers `docker.io/nathanlamyy/vue-app:nathanlamyy`
 
 Les identifiants sont stockés en toute sécurité via les **secrets GitHub** (`DOCKER_USERNAME`, `DOCKER_PASSWORD`).
 
@@ -66,3 +66,4 @@ Les identifiants sont stockés en toute sécurité via les **secrets GitHub** (`
 - **Docker + Docker Compose** : portabilité et reproductibilité
 - **GitHub Actions** : automatisation du lint, test, build et publication
 
+### Une capture d’´ecran (ou lien) montrant une ex´ecution r´eussie de la pipeline CI/CD
