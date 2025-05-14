@@ -49,7 +49,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t docker.io/${{ secrets.DOCKER_USERNAME }}/vue-app:latest .
+        run: docker build -t docker.io/${{ secrets.DOCKER_USERNAME }}/vue-app:nathanlamy
 
       - name: Push Docker image
-        run: docker push docker.io/${{ secrets.DOCKER_USERNAME }}/vue-app:latest
+        run: docker push docker.io/${{ secrets.DOCKER_USERNAME }}/vue-app:nathanlamy
