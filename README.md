@@ -66,5 +66,5 @@ Les identifiants sont stockés en toute sécurité via les **secrets GitHub** (`
 - **Docker + Docker Compose** : portabilité et reproductibilité
 - **GitHub Actions** : automatisation du lint, test, build et publication
 
-### Un lien montrant une ex´ecution réussie de la pipeline CI/CD
+### Un lien montrant une execution réussie de la pipeline CI/CD
 https://github.com/nathanlamy/LOG430-lab-0/actions/runs/15026279409
